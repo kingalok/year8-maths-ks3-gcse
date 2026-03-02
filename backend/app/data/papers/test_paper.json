@@ -1,0 +1,21 @@
+{
+  "title": "Test Paper (Sets 1-5 Topics)",
+  "duration": "40 minutes",
+  "questions": [
+    {"q":"Work out (20 - 8) / 4 + 5","marks":1,"answer":"8"},
+    {"q":"What is cube root of 125?","marks":1,"answer":"5"},
+    {"q":"Fill the symbol: -8 __ -12","marks":1,"answer":">"},
+    {"q":"18 students like football, 7 are girls. How many boys like football?","marks":1,"answer":"11"},
+    {"q":"Convert 0.45 km to m","marks":1,"answer":"450"},
+    {"q":"Regular hexagon side length 6 cm. Find perimeter.","marks":1,"answer":"36"},
+    {"q":"Find area of rectangle 15 cm by 7 cm","marks":1,"answer":"105"},
+    {"q":"Find area of triangle base 18 cm, height 9 cm","marks":1,"answer":"81"},
+    {"q":"Find area of trapezium with parallel sides 14 cm and 8 cm, height 6 cm","marks":1,"answer":"66"},
+    {"q":"Convert 65% to a decimal","marks":1,"answer":"0.65"},
+    {"q":"Share 54 in ratio 2:7. Find smaller share.","marks":1,"answer":"12"},
+    {"q":"Convert 350 cm to m","marks":1,"answer":"3.5"},
+    {"q":"A circle radius is 9 cm. Using pi = 3.14, circumference?","marks":1,"answer":"56.52"},
+    {"q":"A circle radius is 9 cm. Using pi = 3.14, area?","marks":1,"answer":"254.34"},
+    {"q":"Work out -6 squared (no brackets)","marks":1,"answer":"-36"}
+  ]
+}

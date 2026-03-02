@@ -1,0 +1,115 @@
+{
+  "topics": [
+    {"name":"Arithmetic Operations","key":"arithmetic-operations","stage":"KS3"},
+    {"name":"Primes, Factors and Multiples","key":"primes-factors-multiples","stage":"KS3"},
+    {"name":"Fractions","key":"fractions-core","stage":"KS3"},
+    {"name":"Decimals","key":"decimals-core","stage":"KS3"},
+    {"name":"Percentages","key":"percentages-core","stage":"KS3"},
+    {"name":"Ratio and Proportion","key":"ratio-proportion-core","stage":"KS3"},
+    {"name":"BIDMAS","key":"bidmas-core","stage":"KS3"},
+    {"name":"Powers and Roots","key":"powers-roots-core","stage":"KS3"},
+    {"name":"Negatives and Number Lines","key":"negatives-number-lines","stage":"KS3"},
+    {"name":"Algebra Expressions","key":"algebra-expressions-core","stage":"KS3"},
+    {"name":"Linear Equations","key":"linear-equations-core","stage":"KS3"},
+    {"name":"Inequalities","key":"inequalities-core","stage":"KS3"},
+    {"name":"Sequences","key":"sequences-core","stage":"KS3"},
+    {"name":"Coordinates and Graphs","key":"coordinates-graphs-core","stage":"KS3"},
+    {"name":"Angles, Lines and Polygons","key":"angles-lines-polygons-core","stage":"KS3"},
+    {"name":"Perimeter and Area","key":"perimeter-area-core","stage":"KS3"},
+    {"name":"Circles","key":"circles-core","stage":"GCSE"},
+    {"name":"Volume and Surface Area","key":"volume-surface-area-core","stage":"GCSE"},
+    {"name":"Probability","key":"probability-core","stage":"KS3"},
+    {"name":"Statistics and Data","key":"statistics-data-core","stage":"KS3"},
+    {"name":"Transformations","key":"transformations-core","stage":"KS3"},
+    {"name":"Pythagoras","key":"pythagoras-core","stage":"GCSE"}
+  ],
+  "questions": [
+    {"topic_key":"arithmetic-operations","prompt_text":"Calculate 345 + 279","answer_text":"624","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["number"]},
+    {"topic_key":"arithmetic-operations","prompt_text":"Calculate 900 - 478","answer_text":"422","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["number"]},
+    {"topic_key":"arithmetic-operations","prompt_text":"Calculate 36 x 14","answer_text":"504","answer_type":"numeric","difficulty":"medium","marks":2,"source":"super-pack","tags":["number"]},
+
+    {"topic_key":"primes-factors-multiples","prompt_text":"Is 97 prime? (yes/no)","answer_text":"yes","answer_type":"text","difficulty":"medium","marks":1,"source":"super-pack","tags":["prime"]},
+    {"topic_key":"primes-factors-multiples","prompt_text":"Find HCF of 24 and 36","answer_text":"12","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["hcf"]},
+    {"topic_key":"primes-factors-multiples","prompt_text":"Find LCM of 12 and 18","answer_text":"36","answer_type":"numeric","difficulty":"medium","marks":2,"source":"super-pack","tags":["lcm"]},
+
+    {"topic_key":"fractions-core","prompt_text":"Simplify 18/24","answer_text":"3/4","answer_type":"fraction","difficulty":"easy","marks":1,"source":"super-pack","tags":["fractions"]},
+    {"topic_key":"fractions-core","prompt_text":"Calculate 2/3 + 1/6","answer_text":"5/6","answer_type":"fraction","difficulty":"medium","marks":2,"source":"super-pack","tags":["fractions"]},
+    {"topic_key":"fractions-core","prompt_text":"Calculate 3/5 of 50","answer_text":"30","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["fractions"]},
+
+    {"topic_key":"decimals-core","prompt_text":"Calculate 4.8 + 7.35","answer_text":"12.15","answer_type":"decimal","difficulty":"easy","marks":1,"source":"super-pack","tags":["decimals"]},
+    {"topic_key":"decimals-core","prompt_text":"Calculate 9.6 / 0.3","answer_text":"32","answer_type":"decimal","difficulty":"medium","marks":2,"source":"super-pack","tags":["decimals"]},
+    {"topic_key":"decimals-core","prompt_text":"Round 8.476 to 2 decimal places","answer_text":"8.48","answer_type":"decimal","difficulty":"easy","marks":1,"source":"super-pack","tags":["decimals","rounding"]},
+
+    {"topic_key":"percentages-core","prompt_text":"Find 15% of 200","answer_text":"30","answer_type":"percentage","difficulty":"easy","marks":1,"source":"super-pack","tags":["percentages"]},
+    {"topic_key":"percentages-core","prompt_text":"Increase 80 by 25%","answer_text":"100","answer_type":"percentage","difficulty":"medium","marks":2,"source":"super-pack","tags":["percentages"]},
+    {"topic_key":"percentages-core","prompt_text":"Convert 0.72 to a percentage","answer_text":"72","answer_type":"percentage","difficulty":"easy","marks":1,"source":"super-pack","tags":["percentages"]},
+
+    {"topic_key":"ratio-proportion-core","prompt_text":"Simplify ratio 18:24","answer_text":"3:4","answer_type":"ratio","difficulty":"easy","marks":1,"source":"super-pack","tags":["ratio"]},
+    {"topic_key":"ratio-proportion-core","prompt_text":"Share 84 in ratio 3:4","answer_text":"48","answer_type":"ratio","difficulty":"medium","marks":2,"source":"super-pack","tags":["ratio"]},
+    {"topic_key":"ratio-proportion-core","prompt_text":"If 5 pens cost £7.50, cost of 8 pens?","answer_text":"12","answer_type":"numeric","difficulty":"hard","marks":3,"source":"super-pack","tags":["proportion"]},
+
+    {"topic_key":"bidmas-core","prompt_text":"Evaluate 7 + 5 x 6","answer_text":"37","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["bidmas"]},
+    {"topic_key":"bidmas-core","prompt_text":"Evaluate (30 - 6) / 3 + 4","answer_text":"12","answer_type":"numeric","difficulty":"medium","marks":2,"source":"super-pack","tags":["bidmas"]},
+    {"topic_key":"bidmas-core","prompt_text":"Evaluate 2^3 + 18 / (3 x 2)","answer_text":"11","answer_type":"numeric","difficulty":"hard","marks":2,"source":"super-pack","tags":["bidmas"]},
+
+    {"topic_key":"powers-roots-core","prompt_text":"Calculate 11 squared","answer_text":"121","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["powers"]},
+    {"topic_key":"powers-roots-core","prompt_text":"Calculate cube root of 343","answer_text":"7","answer_type":"numeric","difficulty":"medium","marks":2,"source":"super-pack","tags":["roots"]},
+    {"topic_key":"powers-roots-core","prompt_text":"Calculate sqrt(225) + 2^4","answer_text":"31","answer_type":"numeric","difficulty":"medium","marks":2,"source":"super-pack","tags":["powers","roots"]},
+
+    {"topic_key":"negatives-number-lines","prompt_text":"Calculate -8 + 13","answer_text":"5","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["negatives"]},
+    {"topic_key":"negatives-number-lines","prompt_text":"Calculate -6 - 9","answer_text":"-15","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["negatives"]},
+    {"topic_key":"negatives-number-lines","prompt_text":"Calculate (-4) x (-7)","answer_text":"28","answer_type":"numeric","difficulty":"medium","marks":2,"source":"super-pack","tags":["negatives"]},
+
+    {"topic_key":"algebra-expressions-core","prompt_text":"Simplify 4x + 7x - 3x","answer_text":"8x","answer_type":"algebra","difficulty":"easy","marks":1,"source":"super-pack","tags":["algebra"]},
+    {"topic_key":"algebra-expressions-core","prompt_text":"Expand 3(a + 5)","answer_text":"3a+15","answer_type":"algebra","difficulty":"medium","marks":2,"source":"super-pack","tags":["algebra"]},
+    {"topic_key":"algebra-expressions-core","prompt_text":"Simplify 2y + 3 - y + 9","answer_text":"y+12","answer_type":"algebra","difficulty":"easy","marks":1,"source":"super-pack","tags":["algebra"]},
+
+    {"topic_key":"linear-equations-core","prompt_text":"Solve 5x = 35","answer_text":"7","answer_type":"algebra","difficulty":"easy","marks":1,"source":"super-pack","tags":["equation"]},
+    {"topic_key":"linear-equations-core","prompt_text":"Solve 2x + 9 = 25","answer_text":"8","answer_type":"algebra","difficulty":"medium","marks":2,"source":"super-pack","tags":["equation"]},
+    {"topic_key":"linear-equations-core","prompt_text":"Solve 3(x - 2) = 15","answer_text":"7","answer_type":"algebra","difficulty":"hard","marks":3,"source":"super-pack","tags":["equation"]},
+
+    {"topic_key":"inequalities-core","prompt_text":"Fill sign: -3 __ 1","answer_text":"<","answer_type":"text","difficulty":"easy","marks":1,"source":"super-pack","tags":["inequality"]},
+    {"topic_key":"inequalities-core","prompt_text":"Fill sign: 0.45 __ 45%","answer_text":"=","answer_type":"text","difficulty":"medium","marks":2,"source":"super-pack","tags":["inequality"]},
+    {"topic_key":"inequalities-core","prompt_text":"Fill sign: 7/9 __ 0.78","answer_text":"<","answer_type":"text","difficulty":"hard","marks":2,"source":"super-pack","tags":["inequality"]},
+
+    {"topic_key":"sequences-core","prompt_text":"Find next term: 4, 9, 14, 19, ...","answer_text":"24","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["sequence"]},
+    {"topic_key":"sequences-core","prompt_text":"Find nth term of 3, 7, 11, 15, ...","answer_text":"4n-1","answer_type":"algebra","difficulty":"medium","marks":2,"source":"super-pack","tags":["sequence"]},
+    {"topic_key":"sequences-core","prompt_text":"What is the 12th term of 5, 8, 11, ...?","answer_text":"38","answer_type":"numeric","difficulty":"medium","marks":2,"source":"super-pack","tags":["sequence"]},
+
+    {"topic_key":"coordinates-graphs-core","prompt_text":"Write the point with x=3 and y=-2","answer_text":"(3,-2)","answer_type":"text","difficulty":"easy","marks":1,"source":"super-pack","tags":["coordinates"]},
+    {"topic_key":"coordinates-graphs-core","prompt_text":"Point A is (2,5). Move 4 right and 3 down. New point?","answer_text":"(6,2)","answer_type":"text","difficulty":"medium","marks":2,"source":"super-pack","tags":["coordinates"]},
+    {"topic_key":"coordinates-graphs-core","prompt_text":"Midpoint of (2,4) and (8,10)","answer_text":"(5,7)","answer_type":"text","difficulty":"hard","marks":3,"source":"super-pack","tags":["coordinates"]},
+
+    {"topic_key":"angles-lines-polygons-core","prompt_text":"Angles on a straight line add to?","answer_text":"180","answer_type":"angles","difficulty":"easy","marks":1,"source":"super-pack","tags":["angles"]},
+    {"topic_key":"angles-lines-polygons-core","prompt_text":"Interior angles of a triangle add to?","answer_text":"180","answer_type":"angles","difficulty":"easy","marks":1,"source":"super-pack","tags":["angles"]},
+    {"topic_key":"angles-lines-polygons-core","prompt_text":"Find each interior angle of a regular pentagon","answer_text":"108","answer_type":"angles","difficulty":"hard","marks":3,"source":"super-pack","tags":["polygons","angles"]},
+
+    {"topic_key":"perimeter-area-core","prompt_text":"Perimeter of rectangle 11 cm by 6 cm","answer_text":"34","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["perimeter"]},
+    {"topic_key":"perimeter-area-core","prompt_text":"Area of rectangle 13 cm by 7 cm","answer_text":"91","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["area"]},
+    {"topic_key":"perimeter-area-core","prompt_text":"Area of trapezium with parallel sides 12 and 6, height 5","answer_text":"45","answer_type":"numeric","difficulty":"medium","marks":2,"source":"super-pack","tags":["trapezium","area"]},
+
+    {"topic_key":"circles-core","prompt_text":"Using pi=3.14, circumference of diameter 20 cm","answer_text":"62.8","answer_type":"numeric","difficulty":"medium","marks":2,"source":"super-pack","tags":["circle","circumference"]},
+    {"topic_key":"circles-core","prompt_text":"Using pi=3.14, area of radius 8 cm","answer_text":"200.96","answer_type":"numeric","difficulty":"hard","marks":3,"source":"super-pack","tags":["circle","area"]},
+    {"topic_key":"circles-core","prompt_text":"A circumference is 94.2 cm (pi=3.14). Find diameter.","answer_text":"30","answer_type":"numeric","difficulty":"hard","marks":3,"source":"super-pack","tags":["circle","circumference"]},
+
+    {"topic_key":"volume-surface-area-core","prompt_text":"Volume of cuboid 8 x 5 x 3","answer_text":"120","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["volume"]},
+    {"topic_key":"volume-surface-area-core","prompt_text":"Volume of cube side 6","answer_text":"216","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["volume"]},
+    {"topic_key":"volume-surface-area-core","prompt_text":"Surface area of cube side 4","answer_text":"96","answer_type":"numeric","difficulty":"medium","marks":2,"source":"super-pack","tags":["surface area"]},
+
+    {"topic_key":"probability-core","prompt_text":"Fair coin tossed once. Probability of heads?","answer_text":"1/2","answer_type":"fraction","difficulty":"easy","marks":1,"source":"super-pack","tags":["probability"]},
+    {"topic_key":"probability-core","prompt_text":"Bag has 3 red and 7 blue counters. Probability of red?","answer_text":"3/10","answer_type":"fraction","difficulty":"easy","marks":1,"source":"super-pack","tags":["probability"]},
+    {"topic_key":"probability-core","prompt_text":"Fair die rolled. Probability of number >4","answer_text":"1/3","answer_type":"fraction","difficulty":"medium","marks":2,"source":"super-pack","tags":["probability"]},
+
+    {"topic_key":"statistics-data-core","prompt_text":"Mean of 4, 8, 10, 18","answer_text":"10","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["mean"]},
+    {"topic_key":"statistics-data-core","prompt_text":"Median of 2, 9, 3, 7, 5","answer_text":"5","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["median"]},
+    {"topic_key":"statistics-data-core","prompt_text":"Mode of 6, 2, 6, 4, 6, 9, 2","answer_text":"6","answer_type":"numeric","difficulty":"easy","marks":1,"source":"super-pack","tags":["mode"]},
+
+    {"topic_key":"transformations-core","prompt_text":"Translate point (2,3) by vector (4,-1). New point?","answer_text":"(6,2)","answer_type":"text","difficulty":"medium","marks":2,"source":"super-pack","tags":["translation"]},
+    {"topic_key":"transformations-core","prompt_text":"Reflect (5,-2) in the x-axis","answer_text":"(5,2)","answer_type":"text","difficulty":"medium","marks":2,"source":"super-pack","tags":["reflection"]},
+    {"topic_key":"transformations-core","prompt_text":"Rotate (1,2) 90 degrees clockwise about origin","answer_text":"(2,-1)","answer_type":"text","difficulty":"hard","marks":3,"source":"super-pack","tags":["rotation"]},
+
+    {"topic_key":"pythagoras-core","prompt_text":"Right triangle legs 6 and 8. Find hypotenuse.","answer_text":"10","answer_type":"numeric","difficulty":"medium","marks":2,"source":"super-pack","tags":["pythagoras"]},
+    {"topic_key":"pythagoras-core","prompt_text":"Hypotenuse 13 and one leg 5. Find other leg.","answer_text":"12","answer_type":"numeric","difficulty":"hard","marks":3,"source":"super-pack","tags":["pythagoras"]},
+    {"topic_key":"pythagoras-core","prompt_text":"A square has diagonal 10root2. Find side length.","answer_text":"10","answer_type":"numeric","difficulty":"hard","marks":3,"source":"super-pack","tags":["pythagoras","geometry"]}
+  ]
+}

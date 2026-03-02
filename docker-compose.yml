@@ -1,0 +1,18 @@
+services:
+  api:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: year8-maths-api
+    ports:
+      - "8080:8080"
+    environment:
+      DB_URL: sqlite:////data/year8_maths.db
+      LOG_LEVEL: INFO
+    volumes:
+      - sqlite_data:/data
+      - ./backend/app/data:/app/app/data:ro
+    restart: unless-stopped
+
+volumes:
+  sqlite_data:

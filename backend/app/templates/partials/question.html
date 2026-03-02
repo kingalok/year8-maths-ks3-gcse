@@ -1,0 +1,30 @@
+{% if no_session %}
+<div class="result bad">
+  <strong>Session missing.</strong>
+  <p>Please go back home and start again.</p>
+</div>
+{% elif not question %}
+<div class="result info">
+  <strong>Awesome! You finished this set.</strong>
+  <p>All {{ difficulty|title }} questions for this session are attempted.</p>
+  <form action="/start" method="post" class="stack">
+    <input type="hidden" name="mode" value="{{ session_info.mode }}" />
+    <input type="hidden" name="difficulty" value="{{ difficulty }}" />
+    {% for topic_id in session_info.topic_ids %}
+    <input type="hidden" name="topic_ids" value="{{ topic_id }}" />
+    {% endfor %}
+    <button type="submit" class="big-btn">Restart Session</button>
+  </form>
+</div>
+{% else %}
+<div class="question-card">
+  <p class="prompt">{{ question.prompt_text }}</p>
+  <p class="helper">Difficulty: {{ question.difficulty|title }}</p>
+  <form hx-post="/answer" hx-target="#feedback-area" hx-swap="innerHTML" class="stack">
+    <input type="hidden" name="question_id" value="{{ question.id }}" />
+    <label for="answer_text">Type your answer</label>
+    <input id="answer_text" name="answer_text" type="text" required autocomplete="off" />
+    <button type="submit" class="big-btn">Submit Answer</button>
+  </form>
+</div>
+{% endif %}

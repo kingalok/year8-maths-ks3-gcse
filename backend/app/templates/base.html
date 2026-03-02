@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Year 8 Maths Practice{% endblock %}</title>
+    <script src="https://unpkg.com/htmx.org@1.9.12"></script>
+    <link rel="stylesheet" href="{{ url_for('static', path='styles.css') }}" />
+  </head>
+  <body>
+    <main class="container">
+      <header>
+        <h1><a href="/">Year 8 KS3/GCSE Maths</a></h1>
+      </header>
+      {% block content %}{% endblock %}
+    </main>
+
+    <script>
+      document.addEventListener("keydown", function (event) {
+        if (event.key !== "Enter") return;
+
+        const answerInput = document.querySelector('#question-area input[name="answer_text"]');
+        const answerForm = answerInput ? answerInput.closest("form") : null;
+        const nextButton = document.querySelector("#feedback-area .next-btn");
+
+        if (answerInput && document.activeElement === answerInput && answerForm) {
+          event.preventDefault();
+          answerForm.requestSubmit();
+          return;
+        }
+
+        if (nextButton) {
+          event.preventDefault();
+          nextButton.click();
+        }
+      });
+
+      document.body.addEventListener("htmx:afterSwap", function () {
+        const input = document.querySelector('#question-area input[name="answer_text"]');
+        if (input) input.focus();
+      });
+    </script>
+  </body>
+</html>

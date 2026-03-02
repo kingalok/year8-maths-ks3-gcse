@@ -1,0 +1,9 @@
+{% if error %}
+<div class="result bad">{{ error }}</div>
+{% else %}
+<div class="result {% if result.is_correct %}good{% else %}bad{% endif %}">
+  <strong>{% if result.is_correct %}Correct{% else %}Not quite{% endif %}</strong>
+  <p>Your answer: {{ result.submitted_answer }}</p>
+  <p>Correct answer: {{ result.correct_answer }}</p>
+</div>
+{% endif %}

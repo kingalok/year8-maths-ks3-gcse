@@ -1,0 +1,55 @@
+{
+  "topics": [
+    {"name": "BIDMAS", "key": "bidmas", "stage": "KS3"},
+    {"name": "Squares, Roots, Cubes and Negatives", "key": "powers-roots-negatives", "stage": "KS3"},
+    {"name": "Using < and > Symbols", "key": "inequality-symbols", "stage": "KS3"},
+    {"name": "Two-Way Tables", "key": "two-way-tables", "stage": "KS3"},
+    {"name": "Converting Metric Units", "key": "metric-conversion", "stage": "KS3"},
+    {"name": "Perimeter of Polygons", "key": "perimeter-polygons", "stage": "KS3"},
+    {"name": "Area of a Trapezium", "key": "area-trapezium", "stage": "KS3"},
+    {"name": "Area of a Rectangle", "key": "area-rectangle", "stage": "KS3"},
+    {"name": "Area of a Triangle", "key": "area-triangle", "stage": "KS3"},
+    {"name": "Circle Area and Circumference", "key": "circle-area-circumference", "stage": "GCSE"}
+  ],
+  "questions": [
+    {"topic_key":"bidmas","prompt_text":"Calculate 48 - 3 x (5 + 1)","answer_text":"30","answer_type":"numeric","difficulty":"medium","marks":2,"source":"original-gcse-style","tags":["bidmas"]},
+    {"topic_key":"bidmas","prompt_text":"Work out (7^2 - 5^2) / 4","answer_text":"6","answer_type":"numeric","difficulty":"hard","marks":2,"source":"original-gcse-style","tags":["bidmas"]},
+    {"topic_key":"bidmas","prompt_text":"Evaluate 3 + 24 / (2 x 3) + 2^3","answer_text":"15","answer_type":"numeric","difficulty":"hard","marks":2,"source":"original-gcse-style","tags":["bidmas"]},
+
+    {"topic_key":"powers-roots-negatives","prompt_text":"Find the value of 5^2 - 3^3","answer_text":"-2","answer_type":"numeric","difficulty":"medium","marks":2,"source":"original-gcse-style","tags":["powers"]},
+    {"topic_key":"powers-roots-negatives","prompt_text":"What is sqrt(196) + cube root of 27?","answer_text":"17","answer_type":"numeric","difficulty":"medium","marks":2,"source":"original-gcse-style","tags":["roots","cubes"]},
+    {"topic_key":"powers-roots-negatives","prompt_text":"Work out (-3)^2 - (-3^2)","answer_text":"18","answer_type":"numeric","difficulty":"hard","marks":3,"source":"original-gcse-style","tags":["negatives","powers"]},
+
+    {"topic_key":"inequality-symbols","prompt_text":"Fill the sign: -2 __ -7","answer_text":">","answer_type":"text","difficulty":"easy","marks":1,"source":"original-gcse-style","tags":["inequality"]},
+    {"topic_key":"inequality-symbols","prompt_text":"Fill the sign: 3/5 __ 0.58","answer_text":">","answer_type":"text","difficulty":"medium","marks":2,"source":"original-gcse-style","tags":["inequality","decimals"]},
+    {"topic_key":"inequality-symbols","prompt_text":"Fill the sign: -0.41 __ -0.409","answer_text":"<","answer_type":"text","difficulty":"hard","marks":2,"source":"original-gcse-style","tags":["inequality","decimals"]},
+
+    {"topic_key":"two-way-tables","prompt_text":"A two-way table has totals: boys 18, girls 22. 15 girls cycle to school. If 9 boys cycle, how many students cycle in total?","answer_text":"24","answer_type":"numeric","difficulty":"medium","marks":2,"source":"original-gcse-style","tags":["two-way-table"]},
+    {"topic_key":"two-way-tables","prompt_text":"In a class of 32, 19 take French and 13 take Spanish. 7 take both. How many take neither?","answer_text":"7","answer_type":"numeric","difficulty":"hard","marks":3,"source":"original-gcse-style","tags":["two-way-table"]},
+    {"topic_key":"two-way-tables","prompt_text":"Total 50 students: 28 play football. 12 girls play football and there are 20 girls total. How many boys do not play football?","answer_text":"14","answer_type":"numeric","difficulty":"hard","marks":3,"source":"original-gcse-style","tags":["two-way-table"]},
+
+    {"topic_key":"metric-conversion","prompt_text":"Convert 3.75 km to m","answer_text":"3750","answer_type":"numeric","difficulty":"medium","marks":2,"source":"original-gcse-style","tags":["metric"]},
+    {"topic_key":"metric-conversion","prompt_text":"Convert 0.064 m^2 to cm^2","answer_text":"640","answer_type":"numeric","difficulty":"hard","marks":3,"source":"original-gcse-style","tags":["metric","area"]},
+    {"topic_key":"metric-conversion","prompt_text":"Convert 2.4 litres to ml","answer_text":"2400","answer_type":"numeric","difficulty":"easy","marks":1,"source":"original-gcse-style","tags":["metric"]},
+
+    {"topic_key":"perimeter-polygons","prompt_text":"A rectangle is 3.5 cm by 8 cm. Find its perimeter.","answer_text":"23","answer_type":"numeric","difficulty":"medium","marks":2,"source":"original-gcse-style","tags":["perimeter"]},
+    {"topic_key":"perimeter-polygons","prompt_text":"An isosceles triangle has equal sides 9 cm and base 7 cm. Find perimeter.","answer_text":"25","answer_type":"numeric","difficulty":"easy","marks":1,"source":"original-gcse-style","tags":["perimeter"]},
+    {"topic_key":"perimeter-polygons","prompt_text":"A regular octagon has perimeter 96 cm. Find one side length.","answer_text":"12","answer_type":"numeric","difficulty":"hard","marks":2,"source":"original-gcse-style","tags":["perimeter"]},
+
+    {"topic_key":"area-trapezium","prompt_text":"Find area of trapezium with parallel sides 14 cm and 8 cm, height 9 cm.","answer_text":"99","answer_type":"numeric","difficulty":"medium","marks":2,"source":"original-gcse-style","tags":["trapezium","area"]},
+    {"topic_key":"area-trapezium","prompt_text":"A trapezium has area 72 cm^2, parallel sides 10 cm and 8 cm. Find the height.","answer_text":"8","answer_type":"numeric","difficulty":"hard","marks":3,"source":"original-gcse-style","tags":["trapezium","area"]},
+    {"topic_key":"area-trapezium","prompt_text":"Trapezium with parallel sides 5 cm and 11 cm and height 4 cm. Area?","answer_text":"32","answer_type":"numeric","difficulty":"easy","marks":1,"source":"original-gcse-style","tags":["trapezium","area"]},
+
+    {"topic_key":"area-rectangle","prompt_text":"A rectangle has length 12.5 m and width 4 m. Find area.","answer_text":"50","answer_type":"numeric","difficulty":"medium","marks":2,"source":"original-gcse-style","tags":["rectangle","area"]},
+    {"topic_key":"area-rectangle","prompt_text":"Area is 84 cm^2 and length is 14 cm. Find width.","answer_text":"6","answer_type":"numeric","difficulty":"easy","marks":1,"source":"original-gcse-style","tags":["rectangle","area"]},
+    {"topic_key":"area-rectangle","prompt_text":"A floor is 6.4 m by 3.8 m. Carpet costs £15 per m^2. Total cost?","answer_text":"364.8","answer_type":"numeric","difficulty":"hard","marks":3,"source":"original-gcse-style","tags":["rectangle","area","problem-solving"]},
+
+    {"topic_key":"area-triangle","prompt_text":"Find area of triangle with base 13 cm and height 8 cm.","answer_text":"52","answer_type":"numeric","difficulty":"easy","marks":1,"source":"original-gcse-style","tags":["triangle","area"]},
+    {"topic_key":"area-triangle","prompt_text":"Area of triangle is 45 cm^2 and base is 9 cm. Find the height.","answer_text":"10","answer_type":"numeric","difficulty":"medium","marks":2,"source":"original-gcse-style","tags":["triangle","area"]},
+    {"topic_key":"area-triangle","prompt_text":"A triangle and rectangle have same base 10 cm and same height 6 cm. Difference in areas?","answer_text":"30","answer_type":"numeric","difficulty":"hard","marks":3,"source":"original-gcse-style","tags":["triangle","area","comparison"]},
+
+    {"topic_key":"circle-area-circumference","prompt_text":"Using pi = 3.14, find circumference of a circle with diameter 14 cm.","answer_text":"43.96","answer_type":"numeric","difficulty":"medium","marks":2,"source":"original-gcse-style","tags":["circle","circumference"]},
+    {"topic_key":"circle-area-circumference","prompt_text":"Using pi = 3.14, find area of a circle with radius 12 cm.","answer_text":"452.16","answer_type":"numeric","difficulty":"hard","marks":3,"source":"original-gcse-style","tags":["circle","area"]},
+    {"topic_key":"circle-area-circumference","prompt_text":"A circle has circumference 31.4 cm (pi = 3.14). Find diameter.","answer_text":"10","answer_type":"numeric","difficulty":"hard","marks":3,"source":"original-gcse-style","tags":["circle","circumference"]}
+  ]
+}

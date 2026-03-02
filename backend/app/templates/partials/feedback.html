@@ -1,0 +1,17 @@
+{% if error %}
+<div class="result bad">{{ error }}</div>
+{% else %}
+<div id="stats-area" class="stats-box" hx-swap-oob="innerHTML">
+  {% include "partials/stats.html" %}
+</div>
+
+<div class="result {% if result.is_correct %}good{% else %}bad{% endif %}">
+  <strong>{% if result.is_correct %}Correct!{% else %}Not quite.{% endif %}</strong>
+  <p>Correct answer: <strong>{{ result.correct_answer }}</strong></p>
+  <p>Your answer (normalized): <strong>{{ result.normalized_user_answer }}</strong></p>
+  {% if not result.is_correct and result.explanation_hint %}
+  <p><strong>Hint:</strong> {{ result.explanation_hint }}</p>
+  {% endif %}
+  <button class="big-btn next-btn" hx-get="/question" hx-target="#question-area" hx-swap="innerHTML">Next</button>
+</div>
+{% endif %}

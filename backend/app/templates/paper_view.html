@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}{{ paper.title }}{% endblock %}
+{% block content %}
+<section class="card kid-card">
+  <div class="row">
+    <h2>{{ paper.title }}</h2>
+    <a href="/papers">Back to papers</a>
+  </div>
+  <p><strong>Duration:</strong> {{ paper.duration }}</p>
+
+  <ol class="paper-list">
+    {% for item in paper.questions %}
+    <li>
+      <span>{{ item.q }}</span>
+      <span class="marks">[{{ item.marks }} mark]</span>
+    </li>
+    {% endfor %}
+  </ol>
+
+  <h3>Answer Key</h3>
+  <ol class="paper-list answers">
+    {% for item in paper.questions %}
+    <li>{{ item.answer }}</li>
+    {% endfor %}
+  </ol>
+</section>
+{% endblock %}

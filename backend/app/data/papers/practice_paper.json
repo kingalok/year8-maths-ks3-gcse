@@ -1,0 +1,21 @@
+{
+  "title": "Practice Paper (Sets 1-5 Topics)",
+  "duration": "40 minutes",
+  "questions": [
+    {"q":"Work out 7 + 3 x 4","marks":1,"answer":"19"},
+    {"q":"What is 9 squared?","marks":1,"answer":"81"},
+    {"q":"Fill the symbol: 12 __ 17","marks":1,"answer":"<"},
+    {"q":"In a class, 9 boys and 11 girls choose art. How many choose art?","marks":1,"answer":"20"},
+    {"q":"Convert 3.2 m to cm","marks":1,"answer":"320"},
+    {"q":"Find perimeter of a rectangle 8 cm by 5 cm","marks":1,"answer":"26"},
+    {"q":"Find area of a rectangle 12 cm by 4 cm","marks":1,"answer":"48"},
+    {"q":"Find area of triangle base 14 cm, height 5 cm","marks":1,"answer":"35"},
+    {"q":"Find area of trapezium with parallel sides 6 cm and 10 cm, height 4 cm","marks":1,"answer":"32"},
+    {"q":"Find 30% of 90","marks":1,"answer":"27"},
+    {"q":"Share 40 in ratio 1:3. Find larger share.","marks":1,"answer":"30"},
+    {"q":"Convert 6200 g to kg","marks":1,"answer":"6.2"},
+    {"q":"A circle radius is 5 cm. Using pi = 3.14, circumference?","marks":1,"answer":"31.4"},
+    {"q":"A circle radius is 5 cm. Using pi = 3.14, area?","marks":1,"answer":"78.5"},
+    {"q":"Work out -4 squared (no brackets)","marks":1,"answer":"-16"}
+  ]
+}

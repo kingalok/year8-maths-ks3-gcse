@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block title %}Quiz | Year 8 Maths Practice{% endblock %}
+{% block content %}
+<section class="card kid-card">
+  <div class="row">
+    <h2>{{ mode_label }}</h2>
+    <a href="/">Home</a>
+  </div>
+
+  <p class="helper">Topics: {% for topic in session_info.topics %}{{ topic.name }}{% if not loop.last %}, {% endif %}{% endfor %}</p>
+  <p class="helper">Difficulty: {{ difficulty|title }}</p>
+
+  <div id="stats-area" class="stats-box">
+    {% include "partials/stats.html" %}
+  </div>
+
+  <div id="question-area" hx-get="/question" hx-trigger="load" hx-swap="innerHTML">
+    <p class="helper">Loading your next question...</p>
+  </div>
+
+  <div id="feedback-area"></div>
+</section>
+{% endblock %}

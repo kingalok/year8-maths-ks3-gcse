@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+{% block title %}Home | Year 8 Maths Practice{% endblock %}
+{% block content %}
+<section class="card kid-card">
+  <h2>Choose your practice style</h2>
+  <p class="helper">Pick one or more topics, then choose a mode.</p>
+  {% if error %}
+  <div class="result bad">{{ error }}</div>
+  {% endif %}
+
+  <form action="/start" method="post" class="stack">
+    <fieldset class="mode-box">
+      <legend>Mode</legend>
+      {% for mode in modes %}
+      <label class="checkline">
+        <input type="radio" name="mode" value="{{ mode.value }}" {% if loop.first %}checked{% endif %} />
+        <span><strong>{{ mode.label }}</strong> - {{ mode.description }}</span>
+      </label>
+      {% endfor %}
+    </fieldset>
+
+    <fieldset class="mode-box">
+      <legend>Question Difficulty</legend>
+      {% for item in difficulties %}
+      <label class="checkline">
+        <input type="radio" name="difficulty" value="{{ item.value }}" {% if item.value == "medium" %}checked{% endif %} />
+        <span>{{ item.label }}</span>
+      </label>
+      {% endfor %}
+    </fieldset>
+
+    <fieldset class="topic-box">
+      <legend>Topics</legend>
+      {% for stage, topics in grouped_topics.items() %}
+      <div class="topic-group">
+        <h3>{{ stage }}</h3>
+        {% for topic in topics %}
+        <label class="checkline">
+          <input type="checkbox" name="topic_ids" value="{{ topic.ids_csv }}" />
+          <span>{{ topic.name }}</span>
+        </label>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </fieldset>
+
+    <button type="submit" class="big-btn">Start Quiz</button>
+  </form>
+
+  <hr />
+  <form action="/start-hard" method="post" class="stack">
+    <button type="submit" class="big-btn">Start Exam Boost (Hard + Mixed All Topics)</button>
+  </form>
+  <p><a href="/papers"><strong>Open Practice/Test Papers</strong></a></p>
+</section>
+{% endblock %}

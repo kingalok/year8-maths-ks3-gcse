@@ -1,0 +1,46 @@
+{
+  "topics": [
+    {"name": "BIDMAS", "key": "bidmas", "stage": "KS3"},
+    {"name": "Squares, Roots, Cubes and Negatives", "key": "powers-roots-negatives", "stage": "KS3"},
+    {"name": "Using < and > Symbols", "key": "inequality-symbols", "stage": "KS3"},
+    {"name": "Two-Way Tables", "key": "two-way-tables", "stage": "KS3"},
+    {"name": "Converting Metric Units", "key": "metric-conversion", "stage": "KS3"},
+    {"name": "Perimeter of Polygons", "key": "perimeter-polygons", "stage": "KS3"},
+    {"name": "Area of a Trapezium", "key": "area-trapezium", "stage": "KS3"},
+    {"name": "Area of a Rectangle", "key": "area-rectangle", "stage": "KS3"},
+    {"name": "Area of a Triangle", "key": "area-triangle", "stage": "KS3"},
+    {"name": "Circle Area and Circumference", "key": "circle-area-circumference", "stage": "GCSE"}
+  ],
+  "questions": [
+    {"topic_key":"bidmas","prompt_text":"Work out 6 + 4 x 5","answer_text":"26","answer_type":"numeric","difficulty":"easy","marks":1,"source":"exam-pack","tags":["bidmas","m521"]},
+    {"topic_key":"bidmas","prompt_text":"Work out (18 - 6) / 3 + 2","answer_text":"6","answer_type":"numeric","difficulty":"medium","marks":1,"source":"exam-pack","tags":["bidmas","m521"]},
+
+    {"topic_key":"powers-roots-negatives","prompt_text":"What is 7 squared?","answer_text":"49","answer_type":"numeric","difficulty":"easy","marks":1,"source":"exam-pack","tags":["squares","m135"]},
+    {"topic_key":"powers-roots-negatives","prompt_text":"What is cube root of 64?","answer_text":"4","answer_type":"numeric","difficulty":"medium","marks":1,"source":"exam-pack","tags":["cubes","m135"]},
+    {"topic_key":"powers-roots-negatives","prompt_text":"Work out -3 squared (without brackets)","answer_text":"-9","answer_type":"numeric","difficulty":"hard","marks":1,"source":"exam-pack","tags":["negatives","m135"]},
+
+    {"topic_key":"inequality-symbols","prompt_text":"Fill the symbol: 14 __ 9","answer_text":">","answer_type":"text","difficulty":"easy","marks":1,"source":"exam-pack","tags":["inequality","m384"]},
+    {"topic_key":"inequality-symbols","prompt_text":"Fill the symbol: -5 __ -2","answer_text":"<","answer_type":"text","difficulty":"medium","marks":1,"source":"exam-pack","tags":["inequality","m384"]},
+
+    {"topic_key":"two-way-tables","prompt_text":"In a class, 12 boys like football and 8 girls like football. How many students like football?","answer_text":"20","answer_type":"numeric","difficulty":"easy","marks":1,"source":"exam-pack","tags":["two-way-table","m899"]},
+    {"topic_key":"two-way-tables","prompt_text":"30 students: 18 like maths. Of those, 10 are girls. How many boys like maths?","answer_text":"8","answer_type":"numeric","difficulty":"medium","marks":1,"source":"exam-pack","tags":["two-way-table","m899"]},
+
+    {"topic_key":"metric-conversion","prompt_text":"Convert 2.5 m to cm","answer_text":"250","answer_type":"numeric","difficulty":"easy","marks":1,"source":"exam-pack","tags":["metric","m772"]},
+    {"topic_key":"metric-conversion","prompt_text":"Convert 4500 g to kg","answer_text":"4.5","answer_type":"numeric","difficulty":"medium","marks":1,"source":"exam-pack","tags":["metric","m728"]},
+    {"topic_key":"metric-conversion","prompt_text":"Convert 0.36 km to m","answer_text":"360","answer_type":"numeric","difficulty":"hard","marks":1,"source":"exam-pack","tags":["metric","m465"]},
+
+    {"topic_key":"perimeter-polygons","prompt_text":"Rectangle with sides 7 cm and 4 cm. Find perimeter.","answer_text":"22","answer_type":"numeric","difficulty":"easy","marks":1,"source":"exam-pack","tags":["perimeter","m920"]},
+    {"topic_key":"perimeter-polygons","prompt_text":"Regular pentagon side length 9 cm. Find perimeter.","answer_text":"45","answer_type":"numeric","difficulty":"medium","marks":1,"source":"exam-pack","tags":["perimeter","m635"]},
+
+    {"topic_key":"area-trapezium","prompt_text":"Find area of trapezium with parallel sides 8 cm and 12 cm, height 5 cm.","answer_text":"50","answer_type":"numeric","difficulty":"medium","marks":1,"source":"exam-pack","tags":["trapezium","m705"]},
+
+    {"topic_key":"area-rectangle","prompt_text":"Find area of rectangle 9 cm by 6 cm.","answer_text":"54","answer_type":"numeric","difficulty":"easy","marks":1,"source":"exam-pack","tags":["area","rectangle","m390"]},
+    {"topic_key":"area-rectangle","prompt_text":"Rectangle area is 72 cm^2 and width is 8 cm. Find length.","answer_text":"9","answer_type":"numeric","difficulty":"medium","marks":1,"source":"exam-pack","tags":["area","rectangle","m390"]},
+
+    {"topic_key":"area-triangle","prompt_text":"Find area of triangle with base 10 cm and height 6 cm.","answer_text":"30","answer_type":"numeric","difficulty":"easy","marks":1,"source":"exam-pack","tags":["area","triangle","m610"]},
+    {"topic_key":"area-triangle","prompt_text":"Triangle area is 24 cm^2 and base is 8 cm. Find height.","answer_text":"6","answer_type":"numeric","difficulty":"medium","marks":1,"source":"exam-pack","tags":["area","triangle","m610"]},
+
+    {"topic_key":"circle-area-circumference","prompt_text":"A circle has radius 7 cm. Using pi = 22/7, find circumference.","answer_text":"44","answer_type":"numeric","difficulty":"medium","marks":1,"source":"exam-pack","tags":["circle","circumference","m169"]},
+    {"topic_key":"circle-area-circumference","prompt_text":"A circle has radius 7 cm. Using pi = 22/7, find area.","answer_text":"154","answer_type":"numeric","difficulty":"hard","marks":1,"source":"exam-pack","tags":["circle","area","m231"]}
+  ]
+}
